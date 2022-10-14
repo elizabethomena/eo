@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html Lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta nome="viewport" content="width-device-width, initial-scale-1.0">
+        <title>CONTATO</title>
+    </head>
+    <body>
+        <a href="index.html">Voltar</a>
+        <h1>CONTATO</h1>
+        <p>
+            <strong>Nome:</strong> Elizabeth Omena <br>
+            <strong>Email:</strong> omenaelizabeth2005@gmail.com <br>
+            <strong>Telefone:</strong> +55 82 98160-9922 <br>
+        </p>
+
+        <form action="mailto:omenaelizabeth2005@gmail.com" method="post" enctype="text/plain">
+            <!-- enctype="" é utilizada pra encriptar as informações fornecidas. -->
+            <label for="name">Insira seu nome:<br> </label>
+            <input type="text" id="name" required placeholder="Ex.. John Wilton">
+            
+
+            <hr>
+
+            <label for="tel">Insira seu número de telefone:<br> </label>
+            <input type="text" id="tel" required placeholder="Ex.. (XX) XXXXX-XXXX">
+        
+
+            <hr>
+            
+            <label for="email">Insira seu email:<br></label>
+            <input type="text" id="email" required placeholder="Ex.. email@outlook.com"> 
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
